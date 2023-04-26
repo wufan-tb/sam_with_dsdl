@@ -14,7 +14,6 @@ cd sam_with_dsdl
 pip install git+https://github.com/facebookresearch/segment-anything.git
 
 pip install opencv-python pycocotools matplotlib dsdl
-
 ```
 
 ### 2. prepare dsdl datasets
@@ -51,8 +50,10 @@ please visit our [opendatalab](https://opendatalab.com/) platform to download sa
 
 ### 3. download sam model
 
-default or vit_h: [ViT-H SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth).
-vit_l: [ViT-L SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth).
+default or vit_h: [ViT-H SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth).  
+
+vit_l: [ViT-L SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth).  
+
 vit_b: [ViT-B SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth).
 
 
@@ -65,4 +66,4 @@ to evaluate sam with python code, please change location config in `./data_cfgs.
 ```
 python evaluation_sa.py
 ```
-you can also open the notebook file `evaluation_sa.ipynb` to read details about evaluation code.
+notebook users can open `evaluation_sa.ipynb` to read details about evaluation code.
